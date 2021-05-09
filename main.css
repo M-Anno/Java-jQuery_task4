@@ -1,0 +1,78 @@
+/* margin padding reset */
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img, figure,
+h1, h2, h3 ,h4 ,h5, h6, form, select
+{ margin: 0; padding: 0; }
+html
+{ -webkit-text-size-adjust: 100%; }
+body
+{ -webkit-font-smoothing: antialiased; }
+/* remove list point mark */
+ul, ol
+{ list-style: none; }
+/* remove border & off descender */
+img
+{ border: 0; vertical-align: middle; }
+/* remove descender */
+svg, input, select, textarea, label
+{ vertical-align: middle; }
+/* set collapse */
+table
+{ border-collapse: collapse; }
+p
+{ line-height: 1.5; }
+pre
+{ white-space: pre-wrap; }
+address
+{ font-style: normal; }
+*, *:before, *:after{
+  word-break: break-all;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+  color: #222;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*------
+content
+------*/
+h2 {
+  font-family: 400;
+  color: white;
+}
+p {
+  color: white;
+}
+/*------
+slider
+------*/
+img {
+  width: 100%;
+  height: auto;
+}
+.content {
+  width: 400px;
+  height: 350px;
+  background-color: black;
+}
+.slider{
+  width: 100%;
+  max-width: 300px;
+  padding-top:0px;
+  margin: 20px auto;
+}
+.slick-prev::before, .slick-next::before {
+  color: lightgray;
+}
+.slick-dots li button:before {
+  color:white; 
+}
+.slick-dots li.slick-active button:before {
+  color: red; 
+}
